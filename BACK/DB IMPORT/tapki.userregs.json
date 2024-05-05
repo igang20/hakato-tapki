@@ -1,0 +1,31 @@
+[{
+  "_id": {
+    "$oid": "66368b4a1fb54497c9a7f47e"
+  },
+  "username": "test02",
+  "password": "$2a$07$IQMZuVydn5OZMmhipjih5OGhFcYfgT74MA69eT/DlECWHKjeZQn3u",
+  "email": "test@mail.ru",
+  "favorites": [
+    {
+      "$oid": "6637102a00c188ba5f03d376"
+    },
+    {
+      "$oid": "66372b01cdd3384005398255"
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66372d0149b7f4912e354140"
+  },
+  "username": "tapochek",
+  "password": "$2a$07$jvLyxA.hUPt.l/UqN0z/eu3W8KkRSNJgDPY.R/QYIUetiqvqqDuZG",
+  "email": "tapki@gmail.com",
+  "favorites": [
+    {
+      "$oid": "66372b01cdd3384005398255"
+    }
+  ],
+  "__v": 0
+}]

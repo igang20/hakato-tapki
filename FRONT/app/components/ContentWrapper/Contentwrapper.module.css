@@ -1,0 +1,6 @@
+.contentWrapper {
+  width: 1160px;
+  background-color: inherit;
+  margin: 0 auto;
+  display: flex;
+}

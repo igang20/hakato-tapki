@@ -1,0 +1,172 @@
+/* .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 74px);
+  background-color: #0070fb;
+  color: #ffffff;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.paragraph {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.button {
+  background-color: #ffffff;
+  color: #0070fb;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: 0.2s;
+  font-weight: 600;
+}
+
+.button:hover {
+  transform: scale(1.05);
+}
+
+.our_company {
+  background-color: #FFF;
+  color: #0070fb;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: 900;
+}
+
+.black {
+  color: #000;
+} */
+
+.container {
+  height: 100vh;
+  background: rgb(0,86,179);
+  background: linear-gradient(90deg, rgba(0,86,179,1) 0%, rgba(0,140,251,1) 100%);
+}
+
+.title {
+  margin: 0;
+  padding: 100px 0 70px 94px;
+  color: rgb(255, 255, 255);
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 90px;
+  letter-spacing: 0px;
+  text-align: left;
+  max-width: 815px;
+}
+
+.list {
+  color: rgb(255, 255, 255);
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 39px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 0;
+  margin-left: 94px;
+}
+
+#first_cloud {
+  position: absolute;
+  width: 400.59px;
+  height: 387.53px;
+  left: 1008.56px;
+  right: 457.84px;
+  top: 75.28px;
+  bottom: 530.19px;
+  transform: rotate(-13.00deg);
+}
+
+#code {
+  position: absolute;
+  width: 299.93px;
+  height: 299.93px;
+  left: 1276.51px;
+  right: 336.56px;
+  top: 170.18px;
+  bottom: 391.88px;
+  transform: rotate(-44.11deg);
+}
+
+#laptop {
+  position: absolute;
+  width: 700.21px;
+  height: 700.21px;
+  left: 1050.92px;
+  right: -202.13px;
+  top: 258.84px;
+  bottom: -36.04px;
+  transform: rotate(11.13deg);
+}
+
+#bin {
+  position: absolute;
+  width: 293.81px;
+  height: 293.81px;
+  left: 1140.63px;
+  right: 357.57px;
+  top: 400.43px;
+  bottom: 323.77px;
+  transform: rotate(11.81deg);
+}
+
+#bin2 {
+  position: absolute;
+  width: 293.81px;
+  height: 293.81px;
+  left: 1355.63px;
+  right: 357.57px;
+  top: 445.43px;
+  bottom: 323.77px;
+  transform: rotate(11.81deg);
+}
+
+#coffee {
+  position: absolute;
+  width: 529.15px;
+  height: 631.96px;
+  left: 840px;
+  right: 724.85px;
+  top: 335.42px;
+  bottom: -138.38px;
+  transform: rotate(-18.60deg);
+}
+
+#second_cloud {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  left: 30.03px;
+  right: 1436.47px;
+  top: 515.95px;
+  bottom: 77.55px;
+  transform: rotate(5.43deg);
+}
+
+.button {
+  padding: 30px;
+  border-radius: 40px;
+  border: none;
+  background-color: #e66f15;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+  margin-left: 74px;
+  margin-top: 380px;
+  cursor: pointer;
+  transition: 0.2s;
+  margin-left: 104px;
+}
+
+.button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px #f25909;
+}

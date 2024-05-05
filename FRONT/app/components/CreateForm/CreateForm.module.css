@@ -1,0 +1,56 @@
+/* Основные стили для формы */
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.03);
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+/* Стили для заголовка формы */
+.header {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Общие стили для всех полей ввода */
+.input,
+.textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Особые стили для textarea */
+.textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+/* Стили для кнопки отправки */
+.button {
+  padding: 10px;
+  color: white;
+  background-color: #0070fb;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+/* Стилизация для файла input */
+.fileInput {
+  border: 2px dashed #ccc;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 15px;
+}
